@@ -3,7 +3,7 @@ import React from 'react';
 class HelloWorld extends React.Component {
   render() {
     // 定数nameを定義
-    const hello = "Hello World"
+    const hello = "Hello World!"
 
     return (
       <div>
