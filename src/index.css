@@ -1,13 +1,193 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2vw;
+  margin: 0;
+}
+
+select {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2vw;
+}
+
+#rhythmImgFirst {
+  margin: 6vw 0 2vw 0;
+}
+.rhythmImg {
+  display: flex;
+  margin: 2vw 0;
+}
+
+.rhythmImg img {
+  width: 28vw;
+  border: 0.1vw solid black;
+  margin: 0 auto 0 0;
+}
+
+.rhythmImg p {
+  margin: 0 0 1vw auto;
+  font-size: 1.5vw;
+}
+
+.numbers {
+  display: flex;
+  margin: 6vw auto 0 25vw;
+}
+
+#numberLast {
+  margin: 0 0 0 2vw;
+}
+
+.numbers p {
+  width: 5.5vw;
+}
+
+.part {
+  display: flex;
+  margin: 0 1vw;
+}
+
+#first {
+  border: 0.3vw solid lightcoral;
+}
+
+#second {
+  border: 0.3vw solid lightskyblue;
+}
+
+#third {
+  border: 0.3vw solid #ffbb00;
+}
+
+#forth {
+  border: 0.3vw solid lightgreen;
+}
+
+#rhythm_0,
+#rhythm_1,
+#rhythm_2,
+#rhythm_3 {
+  width: 5vw;
+  height: 3vw;
+  margin: 1vw 0 1vw 1vw;
+}
+
+#rhythmImg0,
+#rhythmImg1,
+#rhythmImg2,
+#rhythmImg3 {
+  width: 18vw;
+}
+
+.item select {
+  width: 5.5vw;
+  height: 5.5vw;
+  font-size: 1.8vw;
+  font-family: "ＭＳ Ｐゴシック";
+}
+
+.item {
+  display: flex;
+  margin: 0.3vw 0 0.3vw 0.6vw;
+}
+
+.lastRhythmImg {
+  width: 10vw;
+}
+
+#tempo_category {
+  width: 10vw;
+  height: 4vw;
+  margin: 0 10vw 0 0;
+  background-color: #eee8aa;
+}
+
+.buttons {
+  width: 64vw;
+  display: flex;
+  margin: 2vw auto 0 auto;
+  justify-content: space-between;
+}
+
+button {
+  width: 8vw;
+  height: 4vw;
+  border-radius: 1.5vw;
+  border: none;
+  color: black;
+  font-size: 1vw;
+}
+
+#play_mode {
+  width: 12vw;
+  background-color: #eedab9;
+}
+
+#play {
+  background-color: #ff7e00;
+  display: inline-block;
+  position: relative;
+  color: #000;
+  font-size: 3vw;
+}
+
+#play::before {
+  position: absolute;
+  top: 2vw;
+  left: 3.2vw;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border: 1vw solid transparent;
+  border-left: 1.8vw solid currentColor;
+  content: "";
+}
+
+#stop {
+  background-color: #ffa500;
+  position: relative;
+  color: #000;
+  font-size: 3vw;
+}
+
+#stop::before,
+#stop::after {
+  position: absolute;
+  top: 2vw;
+  transform: translateX(-50%) translateY(-50%);
+  width: 0.4vw;
+  height: 1.5vw;
+  background-color: currentColor;
+  content: "";
+}
+
+#stop::before {
+  left: 4.5vw;
+}
+
+#stop::after {
+  left: 3.5vw;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

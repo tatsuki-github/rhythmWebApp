@@ -1,17 +1,15 @@
 import React from 'react';
 
-class HelloWorld extends React.Component {
-  render() {
-    // 定数nameを定義
-    const hello = "Hello World!"
-
-    return (
-      <div>
-        {/* 定数helloを用いて表示 */}
-        <h1>{hello}</h1>
-      </div>
-    );
-  }
+class App extends React.Component {
+render(){
+        let viewText = "テストページ";
+        return (
+            <div>
+                <h1>Hello! World.</h1>
+                <p>このページは{viewText}です。</p>
+            </div>
+        )
+    }
 }
 
-export default HelloWorld;
+export default App;
