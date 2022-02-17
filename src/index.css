@@ -177,8 +177,3 @@ button {
 #stop::after {
   left: 3.5vw;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
