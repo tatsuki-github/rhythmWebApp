@@ -2,21 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-const number = {
-  display: "flex",
-  margin: "6vw auto 0 25vw",
+
+const numberStyle = {
+  display: 'flex',
+  margin: '6vw auto 0 25vw',
 }
 
 const numberLast = {
-  margin: "0 0 0 2vw",
+  margin: '0 0 0 2vw',
 }
 
 const numberP = {
-  width: "5.5vw",
+  width: '5.5vw',
 }
 
 ReactDOM.render(
-  <div style={number}>
+  <div style={numberStyle}>
   <p style={numberP}>1</p>
   <p style={numberP}>2</p>
   <p style={numberP}>3</p>
@@ -32,6 +33,7 @@ ReactDOM.render(
   </div>,
   document.getElementById('numbers')
 );
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
