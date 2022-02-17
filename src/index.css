@@ -38,19 +38,6 @@ select {
   font-size: 1.5vw;
 }
 
-.numbers {
-  display: flex;
-  margin: 6vw auto 0 25vw;
-}
-
-#numberLast {
-  margin: 0 0 0 2vw;
-}
-
-.numbers p {
-  width: 5.5vw;
-}
-
 .part {
   display: flex;
   margin: 0 1vw;
@@ -92,7 +79,6 @@ select {
   width: 5.5vw;
   height: 5.5vw;
   font-size: 1.8vw;
-  font-family: "ＭＳ Ｐゴシック";
 }
 
 .item {
