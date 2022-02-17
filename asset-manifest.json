@@ -1,15 +1,13 @@
 {
   "files": {
     "main.css": "/rhythmWebApp/static/css/main.1bc389e5.css",
-    "main.js": "/rhythmWebApp/static/js/main.9dce3c0e.js",
-    "static/js/787.c6d07297.chunk.js": "/rhythmWebApp/static/js/787.c6d07297.chunk.js",
+    "main.js": "/rhythmWebApp/static/js/main.281777e9.js",
     "index.html": "/rhythmWebApp/index.html",
     "main.1bc389e5.css.map": "/rhythmWebApp/static/css/main.1bc389e5.css.map",
-    "main.9dce3c0e.js.map": "/rhythmWebApp/static/js/main.9dce3c0e.js.map",
-    "787.c6d07297.chunk.js.map": "/rhythmWebApp/static/js/787.c6d07297.chunk.js.map"
+    "main.281777e9.js.map": "/rhythmWebApp/static/js/main.281777e9.js.map"
   },
   "entrypoints": [
     "static/css/main.1bc389e5.css",
-    "static/js/main.9dce3c0e.js"
+    "static/js/main.281777e9.js"
   ]
 }
